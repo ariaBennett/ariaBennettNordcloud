@@ -10,10 +10,29 @@ Solution for Linkstation Problem built by Aria Bennett.
 - [Contributing](#contributing)
 
 ## Installation
+Node.js is required to run this project,
+information on installing Node.js can be found here:
+https://nodejs.org/
+
+Once you have Node.JS, open a terminal and navigate
+to the same directory this README is in, then run:
+
+```
+npm install
+```
+
+This should complete your setup.
 
 ## Usage
+To output the solution, open a terminal and navigate
+to the same directory this README is in, then run:
+
+```
+node linkstation.js
+```
 
 ## Support
+For support contact Aria Bennett at twoplustwo@gmail.com.
 
 ## Contributing
 
