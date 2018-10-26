@@ -14,6 +14,14 @@ Node.js is required to run this project,
 information on installing Node.js can be found here:
 https://nodejs.org/
 
+Follow the download link or use git clone 
+in a terminal to obtain the repository:
+
+Download: (https://github.com/ariaBennett/ariaBennettNordcloud/archive/master.zip)
+```
+git clone https://github.com/ariaBennett/ariaBennettNordcloud.git
+```
+
 Once you have Node.JS, open a terminal and navigate
 to the same directory this README is in, then run:
 
