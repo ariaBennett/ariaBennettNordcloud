@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ariaBennett/ariaBennettNordcloud#readme",
   "devDependencies": {
+    "eslint": "^5.8.0",
     "mocha": "^5.2.0"
   }
 }
