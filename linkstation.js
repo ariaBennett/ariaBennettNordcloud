@@ -51,6 +51,7 @@ var getPower = function(reach, distance) {
     return ( Math.pow((reach - distance), 2) );
   };
 };
+exports.getPower = getPower;
 
 var getDistance = function(coordinatesA, coordinatesB) {
   var x1 = coordinatesA[0];
@@ -60,9 +61,9 @@ var getDistance = function(coordinatesA, coordinatesB) {
 
   return ( Math.hypot(x2-x1, y2-y1) );
 };
+exports.getDistance = getDistance;
 
 var printOptimalLinkStations = function(linkStations, testCoordinates) {
-
   testCoordinates.forEach(function(coordinates) {
     var bestStation;
     var bestPower = 0;
@@ -95,5 +96,6 @@ var printOptimalLinkStations = function(linkStations, testCoordinates) {
     };
   });
 };
+exports.printOptimalLinkStations = printOptimalLinkStations;
 
 printOptimalLinkStations(linkStations, testCoordinates);

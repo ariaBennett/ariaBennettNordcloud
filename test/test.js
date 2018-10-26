@@ -1,8 +1,8 @@
 var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      assert.equal([1,2,3].indexOf(4), -1);
-    });
+var linkstation = require('../linkstation.js')
+console.log(linkstation);
+describe('#getDistance()', function() {
+  it('should return 5', function() {
+    assert.equal(linkstation.getDistance( [1, 3],[5, 6] ), 5);
   });
 });
