@@ -31,6 +31,12 @@ to the same directory this README is in, then run:
 node linkstation.js
 ```
 
+To run unit tests, use the following command instead:
+
+```
+npm test
+```
+
 ## Support
 For support contact Aria Bennett at twoplustwo@gmail.com.
 
