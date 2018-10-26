@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ariaBennett/ariaBennettNordcloud/issues"
   },
-  "homepage": "https://github.com/ariaBennett/ariaBennettNordcloud#readme"
+  "homepage": "https://github.com/ariaBennett/ariaBennettNordcloud#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
